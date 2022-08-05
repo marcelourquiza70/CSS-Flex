@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container img{
+    height: 90vmin;
+    margin-right: 4rem;
+}
+
+.right-container{
+    height: 90vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4rem;;
+}
+
+.right-upper-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50vmin;
+    /* height: 100vmin; */
+    border: 1px solid lightblue;
+    align-items: center;
+    margin: 1rem;
+    background: white;
+}
+
+.instagram-logo{
+    height: 10vmin;
+    margin: 1vmin;
+}
+
+.profile-photo{
+    height: 20vmin;
+    margin: 1vmin;
+    border-radius: 30%;
+}
+
+.right-upper-container a:nth-of-type(1){
+    width: 35vmin;
+    background-color:deeppink;
+    color: white;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.4rem;
+    margin: 1vmin;
+    font-size: 2.5vmin;
+}
+
+.right-upper-container a:nth-of-type(2){
+    color:deeppink;
+    font-size: 2.5vmin;
+    margin-bottom: 1vmin;
+}
+
+.right-center-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vmin;
+    border: 1px solid lightblue;
+    margin-bottom: 1rem;
+    background: white;
+    font-size: 2.5vmin;
+}
+
+.right-center-container p{
+    font-size: 2.5vmin;
+    margin: 0.5rem;
+}
+
+.right-center-container p:nth-of-type(1){
+    color: gray;
+    font-size: 2.5vmin;
+}
+
+.right-center-container p:nth-of-type(2){
+    color: gray;
+    font-size: 2.5vmin;
+}
+
+.right-center-container a{
+    color: deeppink;
+}
+
+.right-bottom-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-bottom-container p{
+    margin-bottom: 0.5rem;
+    font-weight:bold;
+    font-size: 2.5vmin;
+}
+
+.OS-logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+}
+
+.get-the-app{
+    height: 6.7vmin;
+    width: 23vmin;
+    background-size: cover;
+    margin: 0.5rem;
+}
+
+.get-the-app:nth-child(1){
+    background-image: url('./img/apple-button.png');
+}
+
+.get-the-app:nth-child(2){
+    background-image: url('./img/googleplay-button.png');
+}
